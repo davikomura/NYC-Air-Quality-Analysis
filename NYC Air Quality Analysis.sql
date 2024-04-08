@@ -15,7 +15,7 @@ CREATE TABLE air_quality_data (
 );
 
 -- Import Data
-COPY air_quality_data FROM 'path/to/file.csv' DELIMITER ',' CSV HEADER;
+COPY air_quality_data FROM 'path/to/Air_Quality.csv' DELIMITER ',' CSV HEADER;
 
 -- Advanced SQL Queries
 -- Example 1: Calculate the average data values per indicator and year
